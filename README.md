@@ -92,15 +92,15 @@ Evaluation code can be found in the *eval* folder. To eval one sequence:
 
 For example, to eval the field sequence using the 2ch_country network
 
-    ```bash
-    th nirscenes_eval.lua -seq_path ../datasets/nirscenes/field.t7 -net ../trained_networks/2ch_country.t7 -net_type 2ch
-    ```
+```bash
+th nirscenes_eval.lua -seq_path ../datasets/nirscenes/field.t7 -net ../trained_networks/2ch_country.t7 -net_type 2ch
+```
 
 For more options, run 
 
-    ```bash
-    th nirscenes_eval -h
-    ```
+```bash
+th nirscenes_eval -h
+```
 
 #### VIS-LWIR eval (ICIP2015) (just cuda support)
 
