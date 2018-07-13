@@ -114,10 +114,10 @@ th nirscenes_eval -h
 
 For example. To eval 2ch_country
 
-    ```bash
+```bash
 cd eval
 th icip2015_eval.lua -dataset_path ../nirscenes/icip2015/ -net ../trained_networks/2ch_country.t7
-    ```
+```
 
 ### Training
 
